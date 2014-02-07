@@ -65,19 +65,19 @@
 </main>
 
 <!-- Include required JS files -->
-<script type="text/javascript" src="{{@blog.url}}/assets/js/3rd-party/scripts/shCore.js"></script>
+<script type="text/javascript" src="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/scripts/shCore.js"}}"></script>
  
 <!--
     At least one brush, here we choose JS. You need to include a brush for every 
     language you want to highlight
 -->
-<script type="text/javascript" src="{{@blog.url}}/assets/js/3rd-party/scripts/shBrushJScript.js"></script>
-<script type="text/javascript" src="{{@blog.url}}/assets/js/3rd-party/scripts/shBrushPhp.js"></script>
-<script type="text/javascript" src="{{@blog.url}}/assets/js/3rd-party/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"}}"></script>
+<script type="text/javascript" src="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"}}"></script>
+<script type="text/javascript" src="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/scripts/shBrushXml.js"}}"></script>
  
 <!-- Include *at least* the core style and default theme -->
-<link href="{{@blog.url}}/assets/css/3rd-party/styles/shCore.css" rel="stylesheet" type="text/css" />
-<link href="{{@blog.url}}/assets/css/3rd-party/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<link href="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/styles/shCore.css"}}" rel="stylesheet" type="text/css" />
+<link href="{{asset "js/3rd-party/syntaxhighlighter_3.0.83/styles/shThemeDefault.css"}}" rel="stylesheet" type="text/css" />
 
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
